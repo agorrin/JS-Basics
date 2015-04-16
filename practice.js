@@ -5,7 +5,13 @@ var name = 'Tyler';
 //Create a function called isTyler that accepts name as it's only argument.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
-  //Code Here
+var isTyler = name; 
+if (isTyler == "Tyler") = function()	{
+	alert(true);
+}  
+else {
+	return false;
+}//Code Here
 
 
 //Next problem
@@ -15,7 +21,7 @@ var name = 'Tyler';
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
 
-  //Code Here
+var getName = prompt("What's your name?")	 //Code Here
 
 
 //Next Problem
@@ -24,8 +30,9 @@ var name = 'Tyler';
 
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
-
-  //Code Here
+var getName = prompt("What's your name?");
+var welcome = alert("Welcome, " + getName);
+ //Code Here
 
 
 //Next problem
@@ -45,6 +52,13 @@ var name = 'Tyler';
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
+ false
+ 0
+ ""
+ null
+ undefined
+ NaN
+
   //Answer Here
 
 
@@ -55,15 +69,17 @@ var name = 'Tyler';
 
 //Create a function called myName that returns your name
 
-  //Code Here
+ var myName = function() {
+ 	return "Andrew";
+ }//Code Here
 
 //Now save the function definition of myName into a new variable called newMyName
 
-  //Code Here
+  var newMyName = myName;//Code Here
 
 //Now alert the result of invoking newMyName
 
-
+alert(newMyName);
 
 //Next problem
 
