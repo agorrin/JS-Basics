@@ -5,13 +5,15 @@ var name = 'Tyler';
 //Create a function called isTyler that accepts name as it's only argument.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
-var isTyler = name; 
-if (isTyler == "Tyler") = function()	{
-	alert(true);
-}  
-else {
-	return false;
-}//Code Here
+var isTyler = function(name)	{
+	if (name === "Tyler")	{
+		return true;
+	}  
+	else {
+		return false;
+	}
+}
+//Code Here
 
 
 //Next problem
@@ -31,7 +33,9 @@ var getName = prompt("What's your name?")	 //Code Here
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 var getName = prompt("What's your name?");
-var welcome = alert("Welcome, " + getName);
+var welcome = function()	{
+	alert("Welcome, " + getName);
+}
  //Code Here
 
 
@@ -42,7 +46,7 @@ var welcome = alert("Welcome, " + getName);
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
+//Answer Here
 
 
 //Next problem
@@ -68,18 +72,21 @@ var welcome = alert("Welcome, " + getName);
 
 
 //Create a function called myName that returns your name
-
- var myName = function() {
- 	return "Andrew";
- }//Code Here
+name = "Andrew"
+var myName = function() {
+ 	return name;
+}//Calerode Here
 
 //Now save the function definition of myName into a new variable called newMyName
-
-  var newMyName = myName;//Code Here
+name = "Andrew"
+var myNewName = function() {
+ 	return name;
+}
+alert(myNewName())//Code Here
 
 //Now alert the result of invoking newMyName
 
-alert(newMyName);
+
 
 //Next problem
 
