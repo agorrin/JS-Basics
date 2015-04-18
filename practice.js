@@ -73,8 +73,8 @@ var welcome = function()	{
 
 //Create a function called myName that returns your name
 name = "Andrew"
-var myName = function() {
- 	return name;
+var myName = function(input) {
+ 	return input;
 }//Calerode Here
 
 //Now save the function definition of myName into a new variable called newMyName
